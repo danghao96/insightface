@@ -14,7 +14,7 @@ count = 1
 gpuid = 0
 detector = RetinaFace('./model/R50', 0, gpuid, 'net3')
 
-img = cv2.imread('t1.jpg')
+img = cv2.imread('0080.png')
 print(img.shape)
 im_shape = img.shape
 target_size = scales[0]
